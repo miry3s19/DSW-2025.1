@@ -1,0 +1,89 @@
+* { margin:0; padding: 0;}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.caixa-do-pudim {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#el-pudin {
+    max-width: 1000px;
+    width: 100vw;
+    height: auto;
+    object-fit: contain;
+}
+
+#confeito {
+    position:absolute;
+    top: 9.5vh;
+    width: 17rem;
+    height: auto;
+}
+
+
+
+#topo {
+    position:absolute;
+    top: 40vh;
+    width: 17rem;
+    height: auto;
+}
+
+#coelho {
+    position: absolute;
+    width: 7rem;
+    left: 23.5vw;
+    bottom:30vh;
+
+}
+
+.ovos > img{
+    position: absolute;
+    width: 7rem;
+    top: 60vh
+}
+
+#ovo1 {
+    left: 29vw;
+    top:52vh;
+}
+
+#ovo2 {
+    left: 34vw;
+    top: 57vh;
+}
+
+#ovo3 {
+    left: 40vw;
+}
+
+#ovo4 {
+    left: 46vw;
+    top: 61vh
+}
+
+
+#ovo5 {
+    right: 40vw;
+}
+
+#ovo6 {
+    right: 34vw;
+    top: 57vh;
+}
+
+#ovo7 {
+    right: 29vw;
+    top:52vh;
+}
+
+
